@@ -1,4 +1,4 @@
-package cn.supermartin.martin.ssosingle.web;
+package cn.supermartin.martin.ssomult.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
