@@ -52,4 +52,4 @@ http {
 6、访问http://nginx.com 输入任意用户名登录
 
 # 原理
-访问http://nginx.com访问nginx，然后nginx通过负载均衡将请求加权分给任意一个Tomcat处理，而SpringSession将请求拦截，使所有Tomcat都使用Redis中的Session。
+访问http://nginx.com 访问nginx，然后nginx通过负载均衡将请求加权分给任意一个Tomcat处理，而SpringSession将请求拦截，使所有Tomcat都使用Redis中的Session。
